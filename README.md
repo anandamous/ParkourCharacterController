@@ -53,7 +53,10 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 - **Shaders from Godot Shaders**
   + [**Slow down time ripple effect**](https://godotshaders.com/shader/distortion/)
   + [**Speed lines effect**](https://godotshaders.com/shader/speed-lines-shader-for-godot-4/)
-  + **Hologram shader**
+  + [**Hologram shader**](https://godotshaders.com/shader/scifi-hologram/)
 - **Character Model and Animations** - [**Mixamo**](https://www.mixamo.com/#/)
+
+# Releases:
+## Executable
 
 
