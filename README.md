@@ -36,6 +36,7 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 - **Jump** - Space
 - **Crouch** - C
 - **Move Camera** - Move Mouse
+- **Swap between third and first person** - Q
 ### Abilities:
 - **Triple Jump** - Space (in air)
 - **Sliding** - Hold Crouch (C) while sprinting, gain speed by going down slopes
@@ -46,11 +47,11 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 
 ## Credits/Sources:
 - DISCLAIMER: I have been working on this project for months, and there are likely several sources/credits that I forgot about.
-- Fundamental Movement, Camera, and State Machine - Followed along and modified code from “The Godot FPS Project” tutorial on YouTube by StayAtHomeDev (Up to Episode 17 - State Machine Falling)
-- Sliding mechanic - Took the concept of Sliding like in Apex Legends | Godot tutorial #4 by PerfectioNH and changed it up
-- Wallrun and Wallhop mechanic - Followed along and modified code from Godot FPS Tutorial - Part 7 - Wallrunning by Skyvastern and tweaked it
-- Shaders from Godot Shaders
-  + Slow down time ripple effect
-  + Speed lines effect
+- **Fundamental Movement, Camera, and State Machine** - Followed along and modified code from [“The Godot FPS Project” tutorial on YouTube by StayAtHomeDev](https://www.youtube.com/watch?v=N-jh8qc8tJs&list=PLEHvj4yeNfeF6s-UVs5Zx5TfNYmeCiYwf&) (Up to Episode 17 - State Machine Falling)
+- **Sliding mechanic** - Took the concept of Sliding like in Apex Legends | Godot tutorial #4 by PerfectioNH and changed it up
+- **Wallrun and Wallhop mechanic** - Followed along and modified code from Godot FPS Tutorial - Part 7 - Wallrunning by Skyvastern and tweaked it
+- **Shaders from Godot Shaders**
+  + **Slow down time ripple effect**
+  + **Speed lines effect**
 
 
