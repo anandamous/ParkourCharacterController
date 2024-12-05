@@ -48,10 +48,12 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 ## Credits/Sources:
 - DISCLAIMER: I have been working on this project for months, and there are likely several sources/credits that I forgot about.
 - **Fundamental Movement, Camera, and State Machine** - Followed along and modified code from [“The Godot FPS Project” tutorial on YouTube by StayAtHomeDev](https://www.youtube.com/watch?v=N-jh8qc8tJs&list=PLEHvj4yeNfeF6s-UVs5Zx5TfNYmeCiYwf&) (Up to Episode 17 - State Machine Falling)
-- **Sliding mechanic** - Took the concept of Sliding like in Apex Legends | Godot tutorial #4 by PerfectioNH and changed it up
-- **Wallrun and Wallhop mechanic** - Followed along and modified code from Godot FPS Tutorial - Part 7 - Wallrunning by Skyvastern and tweaked it
+- **Sliding mechanic** - Took the concept of [Sliding like in Apex Legends | Godot tutorial #4 by PerfectioNH](https://youtu.be/vcGCdNsi9qE?si=9QgC8BH_esaK7Y07) and changed it up
+- **Wallrun and Wallhop mechanic** - Followed along and modified code from [Godot FPS Tutorial - Part 7 - Wallrunning by Skyvastern](https://youtu.be/kO9xM9GOZ_o?si=zIADwUhg7PdiCgss) and tweaked it
 - **Shaders from Godot Shaders**
-  + **Slow down time ripple effect**
-  + **Speed lines effect**
+  + [**Slow down time ripple effect**](https://godotshaders.com/shader/distortion/)
+  + [**Speed lines effect**](https://godotshaders.com/shader/speed-lines-shader-for-godot-4/)
+  + **Hologram shader**
+- **Character Model and Animations** - [**Mixamo**](https://www.mixamo.com/#/)
 
 
