@@ -37,6 +37,7 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 - **Crouch** - C
 - **Move Camera** - Move Mouse
 - **Swap between third and first person** - Q
+- **Slow down time** - Right Click
 ### Abilities:
 - **Triple Jump** - Space (in air)
 - **Sliding** - Hold Crouch (C) while sprinting, gain speed by going down slopes
