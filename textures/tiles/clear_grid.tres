@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d2ocx56rspvgp"]
+
+[ext_resource type="Texture2D" uid="uid://ck3fkd1u4jjkw" path="res://textures/clear_grid.png" id="1_xwmlr"]
+
+[resource]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("1_xwmlr")
+uv1_scale = Vector3(0.25, 0.25, 0.25)
+uv1_triplanar = true

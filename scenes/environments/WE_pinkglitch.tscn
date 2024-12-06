@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://opdugdf5x3ba"]
+
+[ext_resource type="Texture2D" uid="uid://b3nygpvlxwq2h" path="res://textures/New Project (46).png" id="1_7v2oy"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_340o7"]
+panorama = ExtResource("1_7v2oy")
+
+[sub_resource type="Sky" id="Sky_ohk6a"]
+sky_material = SubResource("PanoramaSkyMaterial_340o7")
+
+[sub_resource type="Environment" id="Environment_yl0ub"]
+background_mode = 2
+sky = SubResource("Sky_ohk6a")
+sky_rotation = Vector3(0, 4.71239, 0)
+ambient_light_source = 3
+reflected_light_source = 2
+tonemap_mode = 2
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+fog_light_color = Color(0.473883, 0.708784, 1, 1)
+fog_density = 0.005
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0001
+volumetric_fog_length = 20.0
+adjustment_enabled = true
+adjustment_saturation = 1.1
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+environment = SubResource("Environment_yl0ub")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-1, 8.74228e-08, -3.82137e-15, 0, -4.37114e-08, -1, -8.74228e-08, -1, 4.37114e-08, 0, 0, 0)
+shadow_enabled = true

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bvk5ifv2gktut"]
+
+[ext_resource type="Texture2D" uid="uid://dl7yvn74gxqpt" path="res://textures/grid_floor.png" id="1_iamy5"]
+
+[resource]
+albedo_texture = ExtResource("1_iamy5")
+roughness = 0.0
+uv1_scale = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true

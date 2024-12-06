@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://div8altcwtp7r"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oiou0"]
+load_path = "res://.godot/imported/gray_floor.png-0028d57e40f456ad55692ec36885b47b.s3tc.ctex"
+
+[resource]
+albedo_texture = SubResource("CompressedTexture2D_oiou0")
+roughness = 0.0
+uv1_triplanar = true

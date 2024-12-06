@@ -1,0 +1,88 @@
+[gd_scene load_steps=9 format=3 uid="uid://bowsjs5hecp4p"]
+
+[ext_resource type="Material" uid="uid://bhhlnjhhd42sx" path="res://shaders/1-0-particle.tres" id="1_61v5k"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_5orwb"]
+emission_shape = 1
+emission_sphere_radius = 250.0
+gravity = Vector3(0, 1, 0)
+scale_min = 0.2
+scale_max = 0.8
+turbulence_noise_strength = 0.1
+
+[sub_resource type="TextMesh" id="TextMesh_wc1tf"]
+material = ExtResource("1_61v5k")
+text = "0"
+depth = 0.0
+
+[sub_resource type="TextMesh" id="TextMesh_6d53q"]
+material = ExtResource("1_61v5k")
+text = "1
+"
+depth = 0.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nlsrr"]
+cull_mode = 2
+disable_ambient_light = true
+emission_enabled = true
+emission = Color(0, 1, 1, 1)
+emission_energy_multiplier = 100.0
+billboard_mode = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_rv4cs"]
+material = SubResource("StandardMaterial3D_nlsrr")
+size = Vector2(0.01, 0.5)
+orientation = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hvepx"]
+cull_mode = 2
+disable_ambient_light = true
+emission_enabled = true
+emission = Color(1, 0, 1, 1)
+emission_energy_multiplier = 100.0
+billboard_mode = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_o8xxw"]
+material = SubResource("StandardMaterial3D_hvepx")
+size = Vector2(0.01, 0.5)
+orientation = 2
+
+[node name="Node3D" type="Node3D"]
+
+[node name="1" type="GPUParticles3D" parent="."]
+amount = 1000
+lifetime = 10.0
+speed_scale = 0.5
+fixed_fps = 144
+interpolate = false
+visibility_aabb = AABB(-250, -250, -250, 500, 500, 500)
+process_material = SubResource("ParticleProcessMaterial_5orwb")
+draw_pass_1 = SubResource("TextMesh_wc1tf")
+
+[node name="2" type="GPUParticles3D" parent="."]
+amount = 1000
+lifetime = 10.0
+speed_scale = 0.5
+fixed_fps = 144
+interpolate = false
+visibility_aabb = AABB(-250, -250, -250, 500, 500, 500)
+process_material = SubResource("ParticleProcessMaterial_5orwb")
+draw_pass_1 = SubResource("TextMesh_6d53q")
+
+[node name="3" type="GPUParticles3D" parent="."]
+amount = 500
+lifetime = 15.0
+fixed_fps = 144
+interpolate = false
+visibility_aabb = AABB(-250, -250, -250, 500, 500, 500)
+process_material = SubResource("ParticleProcessMaterial_5orwb")
+draw_pass_1 = SubResource("PlaneMesh_rv4cs")
+
+[node name="4" type="GPUParticles3D" parent="."]
+amount = 500
+lifetime = 15.0
+fixed_fps = 144
+interpolate = false
+visibility_aabb = AABB(-250, -250, -250, 500, 500, 500)
+process_material = SubResource("ParticleProcessMaterial_5orwb")
+draw_pass_1 = SubResource("PlaneMesh_o8xxw")
