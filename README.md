@@ -58,6 +58,6 @@ This is a Parkour Character Controller designed utilizing a CharacterBody3D node
 - **Lawlor Heads** - Grabbed from [**Dr. Orion Lawlor's Godot Repo**](https://github.com/olawlor/SimulationsGodot)
 
 # Releases:
-## Executable
+## [Windows Executable](https://github.com/anandamous/ParkourCharacterController/releases/tag/release)
 
 
